@@ -12,6 +12,10 @@ public class HelloController {
     public String getName(){
         return "hello world";
     }
+    @RequestMapping("/wrong")
+    public String queryNamge(){
+        return "oh,wrong 404";
+    }
 
 
 
