@@ -1,0 +1,11 @@
+person:
+  age: 18
+  name: zhansan
+  sex: 男
+  likes:
+    - book
+    - movie
+    - girl
+spring:
+  profiles:
+    active: dev

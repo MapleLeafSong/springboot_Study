@@ -12,5 +12,12 @@ public class MainController {
         return "please wait a minutes!!!";
     }
 
+    @RequestMapping("/getMessage")
+    @ResponseBody
+    public String getMessage(){
+        return "good news ";
+    }
+
+
 
 }
